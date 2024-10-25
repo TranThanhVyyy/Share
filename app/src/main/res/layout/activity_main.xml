@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trần Thanh Vỹ Information"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtStudentID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Mã sinh viên"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Tên sinh viên"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edtlop"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Lớp sinh hoạt"
+        android:inputType="text" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+
+        android:backgroundTint="#009688"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Saved Info"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Info"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D03D3D"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingTop="20dp"/>
+</LinearLayout>
